@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+	int[] list=new int[]{30,60,34,10};
+    double result=0;
+
+        for (int s:list) {
+            result+=s;
+        }
+        System.out.println(result/list.length);
+    }
+}
